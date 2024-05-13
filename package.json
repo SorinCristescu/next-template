@@ -10,7 +10,6 @@
     "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
     "test": "jest",
     "commit": "cz",
-    "test:e2e": "playwright test",
     "prepare": "husky"
   },
   "dependencies": {
@@ -30,6 +29,7 @@
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@commitlint/cz-commitlint": "^19.2.0",
+    "@faker-js/faker": "^8.4.1",
     "@testing-library/jest-dom": "^6.4.5",
     "@testing-library/react": "^15.0.7",
     "@types/jest": "^29.5.12",
@@ -50,7 +50,6 @@
     "eslint-plugin-jest-dom": "^5.4.0",
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-playwright": "^1.6.1",
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.2",

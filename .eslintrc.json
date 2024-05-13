@@ -80,8 +80,7 @@
     },
     // Configuration for e2e testing (Playwright)
     {
-      "files": ["**/*.spec.ts"],
-      "extends": ["plugin:playwright/recommended"]
+      "files": ["**/*.spec.ts"]
     }
   ]
 }
