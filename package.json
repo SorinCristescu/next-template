@@ -13,8 +13,6 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@apollo/client": "^3.10.3",
-    "@apollo/experimental-nextjs-app-support": "^0.10.1",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",

@@ -1,6 +1,6 @@
-import Link from "next/link";
-import Image from "next/image";
-import ThemeToggle from "../ThemeToggle";
+import Link from 'next/link';
+import Image from 'next/image';
+import ThemeToggle from '../ThemeToggle';
 
 export const Navbar = () => {
   return (

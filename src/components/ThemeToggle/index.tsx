@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { Moon, Sun } from "lucide-react";
-import { useTheme } from "next-themes";
-import { useState } from "react";
+import { Moon, Sun } from 'lucide-react';
+import { useTheme } from 'next-themes';
+import { useState } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { useIsomorphicLayoutEffect } from "usehooks-ts";
-import { Button } from "../ui/button";
+import { useIsomorphicLayoutEffect } from 'usehooks-ts';
+import { Button } from '../ui/button';
 
 export default function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
@@ -20,10 +20,10 @@ export default function ThemeToggle() {
   }
 
   const handleTheme = () => {
-    if (theme === "light" || theme === "system") {
-      setTheme("dark");
-    } else if (theme === "dark" || theme === "system") {
-      setTheme("light");
+    if (theme === 'light' || theme === 'system') {
+      setTheme('dark');
+    } else if (theme === 'dark' || theme === 'system') {
+      setTheme('light');
     }
   };
 
@@ -33,7 +33,7 @@ export default function ThemeToggle() {
       onClick={handleTheme}
       className="size-12 rounded-full"
     >
-      {theme === "light" ? (
+      {theme === 'light' ? (
         <Moon className="size-4" />
       ) : (
         <Sun className="size-4" />
